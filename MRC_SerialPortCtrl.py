@@ -22,9 +22,9 @@ class SerialPyInterface(tk.Tk):
     def update_title(self, status):
         """Actualiza el título de la ventana con el estado de la conexión."""
         if status == "Conectado":
-            self.title("MCR SerialPortCtrl - Conectado")
+            self.title("MRC SerialPortCtrl - Conectado")
         else:
-            self.title("MCR SerialPortCtrl - Desconectado")
+            self.title("MRC SerialPortCtrl - Desconectado")
 
     def create_widgets(self):
         # Frame de configuración
