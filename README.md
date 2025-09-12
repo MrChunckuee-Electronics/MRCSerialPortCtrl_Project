@@ -1,6 +1,6 @@
 # MRC SerialPor Ctrl Project
 
-Python based GUI for the serial port, more info on https://mrchunckuee.blogspot.com/2019/06/MCRSerialPortCtrlProject.html
+Python based GUI for the serial port, more info on [https://mrchunckuee.blogspot.com/2019/06/MCRSerialPortCtrlProject.html](https://mrchunckuee.blogspot.com/2019/06/MRCSerialPortCtrlProject.html)
 
 ***
 Puedes seguirme en:
