@@ -7,10 +7,6 @@ from tkinter import ttk, messagebox, filedialog
 import re 
 import csv # Necesario para escribir en formato CSV
 
-# Nota: El uso de 'pandas' se eliminó en esta versión, pero la importación 
-# del sistema aún podría tenerla si no se elimina manualmente del archivo original.
-# Para asegurar que sea liviano, se usa solo 'csv'.
-
 class SerialPyInterface(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -28,7 +24,7 @@ class SerialPyInterface(tk.Tk):
         
         # Variables para la exportación y el CSV
         self.data_column_name = tk.StringVar(value="DatoRecibidoCompleto") 
-        self.csv_column_names = tk.StringVar(value="BitsIR, VoltageIR,TempAmbiente,TempObjeto") # Nombres de las sub-columnas
+        self.csv_column_names = tk.StringVar(value="BitsIR,VoltageIR,TempAmbiente,TempObjeto") # Nombres de las sub-columnas
 
         self.title("MCR SerialPortCtrl - Desconectado")
         self.geometry('750x500')
