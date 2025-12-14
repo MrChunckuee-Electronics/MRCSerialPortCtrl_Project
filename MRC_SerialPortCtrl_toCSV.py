@@ -24,7 +24,7 @@ class SerialPyInterface(tk.Tk):
         
         # Variables para la exportación y el CSV
         self.data_column_name = tk.StringVar(value="DatoRecibidoCompleto") 
-        self.csv_column_names = tk.StringVar(value="BitsIR,VoltageIR,TempAmbiente,TempObjeto") # Nombres de las sub-columnas
+        self.csv_column_names = tk.StringVar(value="Col1,Col2,Col3,Col4") # Nombres default de las sub-columnas
 
         self.title("MCR SerialPortCtrl - Desconectado")
         self.geometry('750x500')
@@ -90,7 +90,7 @@ class SerialPyInterface(tk.Tk):
         ttk.Entry(frame_export, width=25, textvariable=self.data_column_name).grid(row=0, column=1, padx=5, pady=5, sticky='w')
 
         # Fila 2: Nombres de las columnas CSV
-        ttk.Label(frame_export, text="Nombres Sub-Columnas (CSV):").grid(row=1, column=0, padx=5, pady=5, sticky='w')
+        ttk.Label(frame_export, text="Nombres Sub-Columnas:").grid(row=1, column=0, padx=5, pady=5, sticky='w')
         ttk.Entry(frame_export, width=40, textvariable=self.csv_column_names).grid(row=1, column=1, padx=5, pady=5, sticky='w')
 
         # Botón para seleccionar ubicación del archivo
