@@ -27,4 +27,4 @@ The application is structured to be plug-and-play:
 3. **Log:** Use the export checkboxes to start recording data directly to an Excel spreadsheet.
 
 ## Documentation & Tutorial
-For a detailed walkthrough on how to integrate the export logic with Python and how to handle serial interrupts effectively, visit my blog: https://mrchunckuee.blogspot.com/2019/06/MCRSerialPortCtrlProject.html
+For a detailed walkthrough on how to integrate the export logic with Python and how to handle serial interrupts effectively, visit my blog: https://mrchunckuee.blogspot.com/2019/06/MRCSerialPortCtrlProject.html
